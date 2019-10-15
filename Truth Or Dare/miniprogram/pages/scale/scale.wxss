@@ -1,0 +1,51 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.back {
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  z-index: 3;
+  top: 80rpx;
+  left: 38rpx;
+}
+
+.molds {
+  z-index: 2;
+  background-image: linear-gradient(135deg, #2fd5ff 0%, #7918f2 50%, #ec2bff 100%);
+  width: 80%;
+  border-radius: 40rpx;
+  padding: 40rpx;
+}
+
+.mold {
+  margin: 20rpx;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20rpx;
+  padding: 20rpx;
+  text-align: center;
+  /* color: #61067d; */
+}
+.mold:first-child {
+    margin-top: 0;
+}
+.mold.active {
+  position: relative;
+  left: -10rpx;
+  width: calc(100% - 60rpx);
+  box-shadow: 0 30rpx 40rpx -24rpx #000;
+  margin-bottom: 30rpx;
+}

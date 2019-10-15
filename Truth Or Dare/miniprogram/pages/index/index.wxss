@@ -1,0 +1,141 @@
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 130rpx 0 0 0
+}
+
+.top .img{
+  width: 250rpx;
+  height: 100rpx;
+  margin: 0 30rpx;
+}
+
+.mid {
+  margin: 50rpx 95rpx 0 95rpx;
+  width: 560rpx;
+  height:600rpx;
+  border-radius: 20px;
+  position: relative;
+}
+
+.mid .bg1{
+  width: 560rpx;
+  height: 600rpx;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+}
+
+.mid .bg2{
+  width: 540rpx;
+  height: 608rpx;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 10rpx;
+  opacity: 0.6
+}
+
+.mid .bg3{
+  width: 400rpx;
+  height: 565rpx;
+  border-radius: 20px;
+  position: absolute;
+  top: 50rpx;
+  left: 90rpx;
+  opacity: 0.2;
+}
+
+.mid .bg4{
+  width: 480rpx;
+  height: 620rpx;
+  border-radius: 20px;
+  position: absolute;
+  opacity: 0.3;
+  left: 40rpx
+}
+
+.mid .card{
+  color: #5073CC;
+  position: absolute;
+  z-index: 999;
+
+}
+
+.mid .scale{
+  width: 560rpx;
+  height: 50rpx;
+  margin-left: 10rpx;
+  text-align: center;
+  font-size:50rpx
+}
+
+.mid .text{
+  width: 560rpx;
+  height: 300rpx;
+  text-align: center;
+  color: white;
+  font-size: 50rpx;
+  word-break:break-all;
+  margin-top: 150rpx
+}
+
+.mid .assess{
+  font-size: 30rpx;
+  margin: 6rpx 30rpx 0 100rpx
+}
+
+.mid .assess .img{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.mid .assess .badAssess{
+  float: left;
+  position: absolute;
+}
+
+.mid .assess .goodAssess{
+  position: absolute;
+  left: 425rpx;
+}
+
+.mid .assess .assess-data{
+  color: black;
+  margin-left: 18rpx
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    margin: 150rpx 50rpx
+}
+
+.bottom .button{
+   width: 80rpx;
+   height: 80rpx;
+   border-radius: 50%;
+   position: relative;
+   background-color: #6E06AD
+}
+
+.bottom .bottom-left image{
+  width: 80rpx;
+  height: 80rpx;
+  float: left;
+  position: absolute;
+  left: 0;
+}
+
+.bottom .bottom-mid image{
+  width: 250rpx;
+  height: 80rpx;
+  float: left
+}
+
+.bottom .bottom-bottom image{
+  width: 80rpx;
+  height: 80rpx;
+  float: left
+}

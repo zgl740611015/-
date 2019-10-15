@@ -1,0 +1,15 @@
+page{
+    background: url(https://7465-test-01-8klch-1259457002.tcb.qcloud.la/sharebg.jpg) no-repeat;
+    background-size: 100% 100%
+}
+
+.text{
+  word-break:break-all;
+  width: 550rpx;
+  height: 1000rpx;
+  font-size: 60rpx;
+  color: white;
+  position: absolute;
+  top: 200rpx;
+  left: 100rpx;
+}

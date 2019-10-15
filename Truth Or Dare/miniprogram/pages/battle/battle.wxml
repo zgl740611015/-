@@ -1,0 +1,12 @@
+<!--miniprogram/pages/battle/battle.wxml-->
+<view class="bg">
+<view class="btn" bindtap="BackTo" >
+     <image class="back" src="https://7465-test-01-8klch-1259457002.tcb.qcloud.la/back.png"></image>
+  </view>
+  <view class="beer-bottle" bindtap="rotate">
+      <image class="img" src="https://7465-test-01-8klch-1259457002.tcb.qcloud.la/beerbottle.png" animation="{{animation}}" ></image>
+  </view> 
+
+  <view class="bottom">大家围坐一起，点击酒瓶开始，酒瓶转动了起来。最后，酒瓶口对着谁停了下来。自然，这一局挑战真心话和大冒险的人就是TA！</view>
+
+</view>

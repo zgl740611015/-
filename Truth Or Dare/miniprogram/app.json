@@ -1,0 +1,14 @@
+{
+    "pages": [
+        "pages/load/load",
+        "pages/index/index",
+        "pages/battle/battle",
+        "pages/scale/scale",
+        "pages/share/share"
+    ],
+    "window": {
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#691a6a"
+    },
+    "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,19 @@
+<view class="container">
+    <view class="content">
+        <view class="content-word">
+            <view class="content-move">
+                <view class="world">年轻人们</view>
+                <view class="world">聚会不知道玩什么？</view>
+                <view class="world">那你想不想玩点刺激的？</view>
+                <view class="world">......</view>
+                <view class="world">本款真心话大冒险满足你！</view>
+                <view class="world">（仅限单身男女使用）</view>
+                <view class="world">所以你准备好了吗？</view>
+                <view class="world">
+                      <image src='https://7465-test-01-8klch-1259457002.tcb.qcloud.la/girl.png'></image>
+                </view>
+            </view>
+        </view>
+        <button class='btn' bindtap="open">开始使用</button>
+    </view>
+</view>

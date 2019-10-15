@@ -1,0 +1,41 @@
+page{
+   background:url(https://7465-test-01-8klch-1259457002.tcb.qcloud.la/bg.jpg);
+   position:static;
+}
+.btn
+{
+  position: absolute;
+  width: 40rpx;
+  height: 70rpx;
+}
+.back{
+  width: 40rpx;
+  height:40rpx;
+  position: absolute;
+  top: 65rpx;
+  left: 20rpx;
+}
+.beer-bottle{
+  position: relative;
+  width: 650rpx;
+  height: 650rpx;
+  top: 150rpx;
+  left: 50rpx;
+}
+
+.img{
+  position: relative;
+  top: 100rpx;
+  left: 250rpx;
+  height:100%;
+  width: 140rpx;
+}
+
+.bottom{
+  position: absolute;
+  bottom: 50rpx;
+  left: 50rpx;
+  margin: 20rpx;
+  font-size: 32rpx;
+  color: white;
+}

@@ -1,0 +1,53 @@
+<view class='Daddy'>
+
+    <!-- 顶部，功能选择 -->
+  <view class='top'>
+    <view class='clickBefore' >
+      <image class='clickBefore-left img'  src='https://7465-test-01-8klch-1259457002.tcb.qcloud.la/{{top_left}}.png' bindtap="clickBefore"></image>
+      <image class='clickBefore-right img' src='https://7465-test-01-8klch-1259457002.tcb.qcloud.la/{{top_right}}.png'  bindtap="clickAfter"></image>
+    </view>
+  </view>
+
+    <!-- 尺度，内容，点赞 -->
+  <view class='mid'>
+    <view class='card'>
+      <view class="scale">[{{scaleName}}]</view>
+      <view class='text'bindtap="changeContent">
+       {{content}}
+      </view>
+      <view class='assess'>
+        <view class='badAssess' bindtap="Opposition">
+          <image class='img' src='https://7465-test-01-8klch-1259457002.tcb.qcloud.la/bad.png'>
+          </image>
+          <view class='assess-data'>{{opposition}}</view>
+        </view>
+        <view class='goodAssess 'bindtap="Approve">
+          <image class='img' src='https://7465-test-01-8klch-1259457002.tcb.qcloud.la/good.png'>
+          </image>
+          <view class='assess-data'>{{approve}}</view>
+        </view>
+      </view>
+    </view>
+    
+    <image class='bg1' src='https://7465-test-01-8klch-1259457002.tcb.qcloud.la/card.png'></image>
+    <image class='bg2' src='https://7465-test-01-8klch-1259457002.tcb.qcloud.la/card.png'></image>
+    <image class='bg3' src='https://7465-test-01-8klch-1259457002.tcb.qcloud.la/devil.png'></image>
+    <image class='bg4' src='https://7465-test-01-8klch-1259457002.tcb.qcloud.la/card.png'></image>
+  </view>
+
+    <!-- 抽牌，尺度页面跳转，瓶子游戏跳转 -->
+  <view class='bottom'>
+    <view class='bottom-left'>
+        <button class="button" open-type="share">
+        <image src='https://7465-test-01-8klch-1259457002.tcb.qcloud.la/drawcard.png'></image>
+        </button>
+    </view>
+    <view bindtap="trun" class='bottom-mid'  >
+      <image src='https://7465-test-01-8klch-1259457002.tcb.qcloud.la/button2.png'></image>
+    </view>
+    <navigator url='../battle/battle' class='bottom-bottom'>
+      <image src='https://7465-test-01-8klch-1259457002.tcb.qcloud.la/roulette.png'></image>
+    </navigator>
+  </view>
+
+</view>
